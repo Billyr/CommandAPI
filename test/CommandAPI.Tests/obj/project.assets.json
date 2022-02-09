@@ -1,0 +1,1679 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CommandAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CommandAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommandAPI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "CommandAPI/1.0.0": {
+      "type": "project",
+      "path": "../../src/CommandAPI/CommandAPI.csproj",
+      "msbuildProject": "../../src/CommandAPI/CommandAPI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CommandAPI >= 1.0.0",
+      "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "coverlet.collector >= 1.3.0",
+      "xunit >= 2.4.1",
+      "xunit.runner.visualstudio >= 2.4.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/billy/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/billy/CommandAPISolution/test/CommandAPI.Tests/CommandAPI.Tests.csproj",
+      "projectName": "CommandAPI.Tests",
+      "projectPath": "/Users/billy/CommandAPISolution/test/CommandAPI.Tests/CommandAPI.Tests.csproj",
+      "packagesPath": "/Users/billy/.nuget/packages/",
+      "outputPath": "/Users/billy/CommandAPISolution/test/CommandAPI.Tests/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/billy/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/billy/CommandAPISolution/src/CommandAPI/CommandAPI.csproj": {
+              "projectPath": "/Users/billy/CommandAPISolution/src/CommandAPI/CommandAPI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.7.1, )"
+          },
+          "coverlet.collector": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading.Tasks.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading.Tasks.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Handles 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.Handles"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.Handles 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.Handles"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.native.System.Security.Cryptography.Apple 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.native.System.Security.Cryptography.Apple"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.native.System.Security.Cryptography.Apple 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.native.System.Security.Cryptography.Apple"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Csp 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.Csp"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.Csp 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.Csp"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Cng 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.Cng"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.Cng 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.Cng"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'coverlet.collector 1.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "coverlet.collector"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'coverlet.collector 1.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "coverlet.collector"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.NET.Test.Sdk 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.NET.Test.Sdk 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.NET.Test.Sdk 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.NET.Test.Sdk 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature validity period has expired.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 9.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Newtonsoft.Json 9.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NETStandard.Library 1.6.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "NETStandard.Library"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'NETStandard.Library 1.6.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "NETStandard.Library"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Debug 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Diagnostics.Debug"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Diagnostics.Debug 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Diagnostics.Debug"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CSharp 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.CSharp"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.CSharp 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Microsoft.CSharp"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.TestPlatform.ObjectModel 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.TestPlatform.ObjectModel"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.TestPlatform.ObjectModel 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.TestPlatform.ObjectModel"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.TestPlatform.ObjectModel 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.TestPlatform.ObjectModel"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.TestPlatform.ObjectModel 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature validity period has expired.",
+      "libraryId": "Microsoft.TestPlatform.ObjectModel"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Collections 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Collections"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Collections 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Collections"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CodeCoverage 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.CodeCoverage 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CodeCoverage 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.CodeCoverage 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature validity period has expired.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Globalization 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Globalization"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Globalization 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Globalization"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Dynamic.Runtime 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Dynamic.Runtime"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Dynamic.Runtime 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Dynamic.Runtime"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Resources.ResourceManager 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Resources.ResourceManager"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Resources.ResourceManager 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Resources.ResourceManager"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Linq 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Linq"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Linq 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Linq"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.ObjectModel 4.0.12' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.ObjectModel"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.ObjectModel 4.0.12' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.ObjectModel"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NuGet.Frameworks 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'NuGet.Frameworks 5.0.0' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NuGet.Frameworks 5.0.0' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'NuGet.Frameworks 5.0.0' from source 'https://api.nuget.org/v3/index.json': The repository countersignature validity period has expired.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Extensions 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Extensions 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Linq.Expressions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Linq.Expressions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Linq.Expressions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Linq.Expressions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.TestPlatform.TestHost 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.TestPlatform.TestHost 16.7.1' from source 'https://api.nuget.org/v3/index.json': The author primary signature validity period has expired.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.TestPlatform.TestHost 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.TestPlatform.TestHost 16.7.1' from source 'https://api.nuget.org/v3/index.json': The repository countersignature validity period has expired.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encoding 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Text.Encoding 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Extensions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.Extensions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Serialization.Primitives 4.1.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.Serialization.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.Serialization.Primitives 4.1.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.Serialization.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encoding.Extensions 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Text.Encoding.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Text.Encoding.Extensions 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Text.Encoding.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.RegularExpressions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Text.RegularExpressions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Text.RegularExpressions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Text.RegularExpressions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading.Tasks 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading.Tasks"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading.Tasks 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading.Tasks"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Win32.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.Win32.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.Win32.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Microsoft.Win32.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.AppContext 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.AppContext"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.AppContext 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.AppContext"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.XDocument 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Xml.XDocument"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Xml.XDocument 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Xml.XDocument"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.NETCore.Platforms 1.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.NETCore.Platforms 1.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.ReaderWriter 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Xml.ReaderWriter"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Xml.ReaderWriter 4.0.11' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Xml.ReaderWriter"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Collections 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Collections"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Collections 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Collections"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Collections.Concurrent 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Collections.Concurrent"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Collections.Concurrent 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Collections.Concurrent"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Console 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Console"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Console 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Console"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Debug 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Diagnostics.Debug"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Diagnostics.Debug 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Diagnostics.Debug"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Tools 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Diagnostics.Tools"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Diagnostics.Tools 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Diagnostics.Tools"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Globalization.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Globalization.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Globalization.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Globalization.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Tracing 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Diagnostics.Tracing"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Diagnostics.Tracing 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Diagnostics.Tracing"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Globalization 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Globalization"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Globalization 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Globalization"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Net.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Net.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Net.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Sockets 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Net.Sockets"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Net.Sockets 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Net.Sockets"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.ObjectModel 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.ObjectModel"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.ObjectModel 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.ObjectModel"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Resources.ResourceManager 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Resources.ResourceManager"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Resources.ResourceManager 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Resources.ResourceManager"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Handles 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.Handles"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.Handles 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.Handles"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.InteropServices.RuntimeInformation 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.InteropServices.RuntimeInformation"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.InteropServices.RuntimeInformation 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.InteropServices.RuntimeInformation"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Algorithms 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.Algorithms"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.Algorithms 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.Algorithms"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.Numerics 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.Numerics"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.Numerics 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.Numerics"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.InteropServices 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.InteropServices"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.InteropServices 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.InteropServices"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Encoding 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.Encoding"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.Encoding 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.Encoding"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO.Compression.ZipFile 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO.Compression.ZipFile"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO.Compression.ZipFile 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO.Compression.ZipFile"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Globalization.Calendars 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Globalization.Calendars"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Globalization.Calendars 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Globalization.Calendars"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO.FileSystem.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO.FileSystem.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO.FileSystem.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO.FileSystem.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Linq 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Linq"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Linq 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Linq"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO.Compression 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO.Compression"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO.Compression 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO.Compression"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO.FileSystem 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO.FileSystem"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO.FileSystem 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO.FileSystem"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.Primitives 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Linq.Expressions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Linq.Expressions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Linq.Expressions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Linq.Expressions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Net.Http 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Net.Http"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Net.Http 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Net.Http"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.X509Certificates 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Security.Cryptography.X509Certificates"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Security.Cryptography.X509Certificates 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Security.Cryptography.X509Certificates"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.TypeExtensions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.TypeExtensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.TypeExtensions 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.TypeExtensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.NETCore.Platforms 1.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.NETCore.Platforms 1.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.NETCore.Targets 1.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.NETCore.Targets 1.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Emit"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Emit 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Emit"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit.ILGeneration 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Emit.ILGeneration"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Emit.ILGeneration 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Emit.ILGeneration"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit.Lightweight 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Emit.Lightweight"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Emit.Lightweight 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Emit.Lightweight"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO.FileSystem 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO.FileSystem"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO.FileSystem 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO.FileSystem"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IO.FileSystem.Primitives 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.IO.FileSystem.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.IO.FileSystem.Primitives 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.IO.FileSystem.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Runtime.InteropServices 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Runtime.InteropServices"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Runtime.InteropServices 4.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Runtime.InteropServices"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading.Tasks.Extensions 4.0.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading.Tasks.Extensions 4.0.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.Tools 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Diagnostics.Tools"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Diagnostics.Tools 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Diagnostics.Tools"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.NETCore.Targets 1.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'Microsoft.NETCore.Targets 1.1.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.native.System 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.native.System"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.native.System 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.native.System"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.native.System.IO.Compression 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.native.System.IO.Compression"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.native.System.IO.Compression 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.native.System.IO.Compression"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Buffers 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Buffers"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Buffers 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Buffers"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Emit"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Emit 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Emit"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit.Lightweight 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Emit.Lightweight"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Emit.Lightweight 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Emit.Lightweight"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Emit.ILGeneration 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Emit.ILGeneration"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Emit.ILGeneration 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Emit.ILGeneration"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.TypeExtensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.TypeExtensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.TypeExtensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.TypeExtensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading.Timer 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading.Timer"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading.Timer 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading.Timer"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Reflection.Primitives 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Reflection.Primitives"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Reflection.Primitives 4.0.1' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Reflection.Primitives"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.native.System.Security.Cryptography.OpenSsl 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encoding.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Text.Encoding.Extensions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Text.Encoding.Extensions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Text.Encoding.Extensions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'runtime.native.System.Net.Http 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "runtime.native.System.Net.Http"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'runtime.native.System.Net.Http 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "runtime.native.System.Net.Http"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Encoding 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Text.Encoding 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.RegularExpressions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Text.RegularExpressions"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Text.RegularExpressions 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Text.RegularExpressions"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.XDocument 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Xml.XDocument"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Xml.XDocument 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Xml.XDocument"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Threading.Tasks 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Threading.Tasks"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Threading.Tasks 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Threading.Tasks"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Diagnostics.DiagnosticSource 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Diagnostics.DiagnosticSource 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "code": "NU3028",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.ReaderWriter 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature's timestamp found a chain building issue: ExplicitDistrust: The trust setting for this policy was set to Deny.",
+      "libraryId": "System.Xml.ReaderWriter"
+    },
+    {
+      "code": "NU3037",
+      "level": "Error",
+      "message": "Package 'System.Xml.ReaderWriter 4.3.0' from source 'https://api.nuget.org/v3/index.json': The repository primary signature validity period has expired.",
+      "libraryId": "System.Xml.ReaderWriter"
+    }
+  ]
+}
