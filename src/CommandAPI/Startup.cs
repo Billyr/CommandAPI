@@ -8,19 +8,33 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using CommandAPI.Data;
 
 namespace CommandAPI
 {
     public class Startup
     {
+
+        public IConfiguration Configuration { get; }
+
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddDbContext<CommandContext>(opt => opt.UseNpgsql
+            (Configuration.GetConnectionString("PostgreSqlConnection")));
 
-            services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
+            services.AddControllers();
+            
+            services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
+            //services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +50,7 @@ namespace CommandAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
                 /*
                 endpoints.MapGet("/", async context =>
                 {
